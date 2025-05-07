@@ -1,0 +1,144 @@
+// // // {
+// // //     "version": "0.2.0",
+// // //     "configurations": [
+// // //       {
+// // //         "name": "Docker .NET Core Launch (API1)",
+// // //         "type": "coreclr",
+// // //         "request": "launch",
+// // //         "program": "/app/drushim.dll",
+// // //         "cwd": "/app",
+// // //         "stopAtEntry": false,
+// // //         "env": {
+// // //           "ASPNETCORE_ENVIRONMENT": "Development"
+// // //         },
+// // //         "sourceFileMap": {
+// // //           "/app": "${workspaceFolder}/drushim_project"
+// // //         }
+// // //       },
+// // //       {
+// // //         "name": "Docker .NET Core Launch (API2)",
+// // //         "type": "coreclr",
+// // //         "request": "launch",
+// // //         "program": "/app/SimiltaryWorlds.dll",
+// // //         "cwd": "/app",
+// // //         "stopAtEntry": false,
+// // //         "env": {
+// // //           "ASPNETCORE_ENVIRONMENT": "Development"
+// // //         },
+// // //         "sourceFileMap": {
+// // //           "/app": "${workspaceFolder}/SimilariyWorlds"
+// // //         }
+// // //       }
+// // //     ]
+// // //   }
+  
+
+// // {
+// //     "version": "0.2.0",
+// //     "configurations": [
+// //       {
+// //         "name": "Docker .NET Core Debug (API1)",
+// //         "type": "coreclr",
+// //         "request": "launch",
+// //         "preLaunchTask": "docker-run-api1",
+// //         "program": "/app/drushim.dll",
+// //         "cwd": "${workspaceFolder}/drushim_project/drushim",  // 👈 שים לב לשינוי
+// //         "stopAtEntry": false,
+// //         "env": {
+// //           "ASPNETCORE_ENVIRONMENT": "Development"
+// //         },
+// //         "sourceFileMap": {
+// //           "/app": "${workspaceFolder}/drushim_project"
+// //         }
+// //       },
+// //       {
+// //         "name": "Docker .NET Core Debug (API2)",
+// //         "type": "coreclr",
+// //         "request": "launch",
+// //         "preLaunchTask": "docker-run-api2",
+// //         "program": "/app/SimiltaryWorlds.dll",
+// //         "cwd": "${workspaceFolder}/SimiltaryWorlds/SimiltaryWorlds",  // 👈 כאן גם לתיקייה המדויקת
+// //         "stopAtEntry": false,
+// //         "env": {
+// //           "ASPNETCORE_ENVIRONMENT": "Development"
+// //         },
+// //         "sourceFileMap": {
+// //           "/app": "${workspaceFolder}/SimiltaryWorlds"
+// //         }
+// //       }
+// //     ]
+// //   }
+
+
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//       {
+//         "name": "Docker .NET Core Debug (API1)",
+//         "type": "coreclr",
+//         "request": "launch",
+//         "preLaunchTask": "docker-run-api1",
+//         "program": "${workspaceFolder}/drushim_project/drushim/bin/Debug/net8.0/drushim.dll",
+//         "cwd": "${workspaceFolder}/drushim_project/drushim",
+//         "stopAtEntry": false,
+//         "env": {
+//           "ASPNETCORE_ENVIRONMENT": "Development"
+//         },
+//         "sourceFileMap": {
+//           "/app": "${workspaceFolder}/drushim_project/drushim"
+//         }
+//       },
+//       {
+//         "name": "Docker .NET Core Debug (API2)",
+//         "type": "coreclr",
+//         "request": "launch",
+//         "preLaunchTask": "docker-run-api2",
+//     "program": "${workspaceFolder}/SimiltaryWorlds/SimiltaryWorlds/bin/Debug/net8.0/SimiltaryWorlds.dll",
+//         "cwd": "${workspaceFolder}/SimiltaryWorlds/SimiltaryWorlds",
+//         "stopAtEntry": false,
+//         "env": {
+//           "ASPNETCORE_ENVIRONMENT": "Development"
+//         },
+//         "sourceFileMap": {
+//           "/app": "${workspaceFolder}/SimiltaryWorlds/SimiltaryWorlds"
+//         }
+//       }
+//     ]
+//   }
+  
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Docker (API1)",
+      "type": "coreclr",
+      "request": "attach",
+      "processId": "1",
+      "pipeTransport": {
+        "pipeCwd": "${workspaceFolder}",
+        "pipeProgram": "docker",
+        "pipeArgs": ["exec", "-i", "cpmposedockerfile-api1-1"],
+        "debuggerPath": "/vsdbg/vsdbg"
+      },
+      "sourceFileMap": {
+        "/app": "${workspaceFolder}/drushim_project/drushim"
+      }
+    },
+    {
+      "name": "Attach to Docker (API2)",
+      "type": "coreclr",
+      "request": "attach",
+      "processId": "1",
+      "pipeTransport": {
+        "pipeCwd": "${workspaceFolder}",
+        "pipeProgram": "docker",
+        "pipeArgs": ["exec", "-i", "cpmposedockerfile-api2-1"],
+        "debuggerPath": "/vsdbg/vsdbg"
+      },
+      "sourceFileMap": {
+        "/app": "${workspaceFolder}/SimiltaryWorlds/SimiltaryWorlds"
+      }
+    }
+  ]
+}
