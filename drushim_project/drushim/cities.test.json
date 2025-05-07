@@ -1,0 +1,19 @@
+{
+  "ElkSetting": {
+    "ElkURL": "http://tlogstash.bit.com:8080"
+  },
+  "token": "123456_@1Mda",
+  "Href": {
+    "GetOrdersList": "https://servicesqa.adamtotal.co.il/api/Career/GetOrdersList",
+    "GetAdvertisingDestinations": "https://servicesqa.adamtotal.co.il/api/Career/GetAdvertisingDestinations",
+    "GetCitiesList": "https://servicesqa.adamtotal.co.il/api/Career/GetCitiesList",
+    "GetJobScopes": "https://servicesqa.adamtotal.co.il/api/Career/GetJobScopes",
+    "GetBranches": "https://servicesqa.adamtotal.co.il/api/Career/GetBranches",
+    "GetCategories": "https://servicesqa.adamtotal.co.il/api/Career/GetCategories",
+    "GetArea": "https://servicesqa.adamtotal.co.il/api/Career/GetArea",
+    "GetProfession": "https://servicesqa.adamtotal.co.il/api/Career/GetProfession",
+    "GetSubProfession": "https://servicesqa.adamtotal.co.il/api/Career/GetSubProfession",
+    "GetOrdersDetails": "https://servicesqa.adamtotal.co.il/api/Career/GetOrdersDetails"
+  }
+
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "JobId": 29,
+    "JobName": "מנהל.ת נכסים",
+    "OrderId": 2702,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 28,
+    "JobName": "עובד.ת אחזקה ותפעול",
+    "OrderId": 2689,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 27,
+    "JobName": "מתמחה ללשכה המשפטית חולון",
+    "OrderId": 2688,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 25,
+    "JobName": "מנהל.ת שיווק לקוחות מגזר פרטי",
+    "OrderId": 2675,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 9,
+    "JobName": "מומחה.ית תקשורת ואבטחת מידע לצוות אינטגרציה- חולון",
+    "OrderId": 2650,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 24,
+    "JobName": "נציג.ת קידום ותמיכת הזמנות בחולון",
+    "OrderId": 2623,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 13,
+    "JobName": "מרכז שרות וחווית לקוח מודיעין עילית",
+    "OrderId": 2575,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 15,
+    "JobName": "אנשי.נשות מכירות שטח בעולמות הסיבים",
+    "OrderId": 2391,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 13,
+    "JobName": "נציג.ה מרכז תמיכה אסטרטגי מסחרי חולון",
+    "OrderId": 2154,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 14,
+    "JobName": "נציג.ה במרכז תמיכה מסחרי עסקי- י\"ם",
+    "OrderId": 2084,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 13,
+    "JobName": "יועצים.יועצות לשימור ופרסום דיגיטלי b144 ת\\\"א\"",
+    "OrderId": 2023,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 19,
+    "JobName": "עובדי.ות תשתיות",
+    "OrderId": 2011,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 13,
+    "JobName": "נציג.ה במרכז שרות וחווית לקוח- ב\"ש",
+    "OrderId": 1031,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 14,
+    "JobName": "נציג.ת ייעוץ פרסום דיגיטלי לעסקים מוקד חיפה",
+    "OrderId": 1028,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 21,
+    "JobName": "טכנאי.ת שירותי לקוחות",
+    "OrderId": 1026,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 13,
+    "JobName": "נציג.ת שירות לעסקים קטנים",
+    "OrderId": 1016,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 14,
+    "JobName": "נציג.ת מוקד מכירות ירושלים",
+    "OrderId": 1012,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 13,
+    "JobName": "נציג.ה במרכז שרות וחווית לקוח חיפה",
+    "OrderId": 1010,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 13,
+    "JobName": "נציג.ה במרכז שירות וחווית לקוח ת\"א",
+    "OrderId": 1009,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 17,
+    "JobName": "נציג.ה במרכז תמיכה וחווית לקוח חיפה",
+    "OrderId": 1008,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 17,
+    "JobName": "נציג.ה במרכז תמיכה וחווית לקוח באר שבע",
+    "OrderId": 1007,
+    "Embedding": null,
+    "similitaryjob": 0
+  },
+  {
+    "JobId": 17,
+    "JobName": "נציג.ה במרכז תמיכה וחוויית לקוח ירושלים",
+    "OrderId": 1005,
+    "Embedding": null,
+    "similitaryjob": 0
+  }
+]

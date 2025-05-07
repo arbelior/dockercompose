@@ -1,0 +1,19 @@
+{
+  "ElkSetting": {
+    "ElkURL": "http://plogstash.lbi.com:8080"
+  },
+  "token": "CFFC25-6684BA-B88429-F62BDB-A54A5W",
+  "Href": {
+    "GetOrdersList": "https://services.adamtotal.co.il/api/Career/GetOrdersList",
+    "GetAdvertisingDestinations": "https://services.adamtotal.co.il/api/Career/GetAdvertisingDestinations",
+    "GetCitiesList": "https://services.adamtotal.co.il/api/Career/GetCitiesList",
+    "GetJobScopes": "https://services.adamtotal.co.il/api/Career/GetJobScopes",
+    "GetBranches": "https://services.adamtotal.co.il/api/Career/GetBranches",
+    "GetCategories": "https://services.adamtotal.co.il/api/Career/GetCategories",
+    "GetArea": "https://services.adamtotal.co.il/api/Career/GetArea",
+    "GetProfession": "https://services.adamtotal.co.il/api/Career/GetProfession",
+    "GetSubProfession": "https://services.adamtotal.co.il/api/Career/GetSubProfession",
+    "GetOrdersDetails": "https://services.adamtotal.co.il/api/Career/GetOrdersDetails"
+  }
+
+}

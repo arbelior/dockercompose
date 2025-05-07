@@ -1,0 +1,6 @@
+@drushim_HostAddress = http://localhost:5206
+
+GET {{drushim_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
